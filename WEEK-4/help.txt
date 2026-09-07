@@ -1,0 +1,111 @@
+SIMPLE LINE EDITOR - HELP
+
+DESCRIPTION
+A simple line-based text editor for creating, editing,
+displaying, saving and loading text documents.
+
+COMMANDS
+
+1. INSERT
+Syntax:
+insert <line_number>
+
+Example:
+insert 1
+
+Adds a new line at the specified position.
+
+2. DELETE
+Syntax:
+delete <line_number>
+
+Example:
+delete 2
+
+Deletes the specified line.
+
+3. DISPLAY
+Syntax:
+display
+
+Example:
+display
+
+Displays all current lines with their line numbers.
+
+4. SAVE
+Syntax:
+save <filename>
+
+Example:
+save document.txt
+
+Saves the current document to a text file.
+
+5. LOAD
+Syntax:
+load <filename>
+
+Example:
+load document.txt
+
+Loads a text file into the editor.
+
+6. SEARCH
+Syntax:
+search <word>
+
+Example:
+search hello
+
+Finds and displays lines containing the given word.
+
+7. REPLACE
+Syntax:
+replace <old> <new>
+
+Example:
+replace hello hi
+
+Replaces all occurrences of the old word with the new word.
+
+8. UNDO
+Syntax:
+undo
+
+Example:
+undo
+
+Reverts the most recent insert, delete or replace action.
+
+9. COUNT
+Syntax:
+count
+
+Example:
+count
+
+Displays the total number of lines and words.
+
+10. HELP
+Syntax:
+help
+
+Displays the available commands.
+
+11. QUIT
+Syntax:
+quit
+
+Exits the editor.
+
+SAMPLE SESSION
+
+> insert 1
+> insert 2
+> display
+> search hello
+> replace hello hi
+> count
+> save document.txt
+> quit
