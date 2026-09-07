@@ -90,6 +90,6 @@ README.txt
 TEAM
 
 Team members:
-1. __________________
-2. __________________
-3. __________________
+1. Ishant Lanjewar
+2. Harshil Nair
+3. Karthik MR
